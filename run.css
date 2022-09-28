@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(to right, aquamarine, rgb(172, 179, 179));
+    height: 1600px;
+}
+
+.wellerman{
+    position: absolute;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(55, 67, 67);
+}
+
+.back button{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 1400px;
+    left: 480px;
+    border-radius: 100px;
+    font-size: 40px;
+    background-color: rgb(36, 40, 44,.2);
+}
+
+.back :hover{
+    cursor: pointer;
+    border-color: aquamarine;
+    color: aquamarine;
+}
